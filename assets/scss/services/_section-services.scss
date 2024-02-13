@@ -1,0 +1,39 @@
+#services{
+    .services-title{
+        margin-bottom: 1rem;
+        b{
+            font-size: 35px;
+        }
+    }
+    .services-description{
+        margin-bottom: 3rem;
+        p{
+            font-size: 14px;
+            color: #7b7b93;
+        }
+    }
+    .service-card{
+        width: 560px;
+        margin-left: 2rem;
+        margin-bottom: 5rem;
+        .card-gif{
+            margin-right: 2rem;
+        }
+        .card-text{
+            .card-title{
+                margin-bottom: 1rem;
+                b{
+                    font-size: 21px;
+                }
+            }
+            .card-description{
+                p{
+                    font-size: 16px;
+                    color: #7b7b93;
+                    text-align: justify;
+                    text-justify: inter-word;
+                }
+            }
+        }
+    }
+}

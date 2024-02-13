@@ -1,0 +1,192 @@
+@media only screen and (max-width: 1399px) {
+    header {
+        .top-header {
+            .container {
+                padding: 0 2rem;
+                // background-color: red;
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    header {
+        .top-header {
+            .container {
+                min-width: 1100px !important;
+                // background-color: pink;
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 1099px) {
+    header {
+        .top-header {
+            .container {
+                min-width: 1050px !important;
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 1049px) {
+    header {
+        .top-header {
+            .container {
+                min-width: 800px !important;
+                // background-color: green;
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    header {
+        .top-header {
+            display: none;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 799px) {
+    header {
+        .top-header {
+            display: none;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    header {
+        .top-header {
+            display: none;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    header {
+        .top-header {
+            display: none;
+        }
+
+    }
+}
+
+@media screen and (max-width: 601px) {
+    #intro {
+        .second-slider {
+
+            .container-fluid {
+                .row {
+                    #carouselExampleControls {
+
+                        .carousel-inner {
+                            .carousel-item {
+
+                                .subtitle {
+                                    display: none;
+                                }
+
+                                .button-wrap {
+                                    min-height: 40px;
+
+                                    a {
+                                        font-size: 10px;
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #calculator {
+        .container {
+            .row {
+                display: flex;
+                flex-direction: column-reverse;
+
+                .texts {
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:419px) {
+    #delivery {
+        .methods {
+            a {
+                font-size: 12px;
+            }
+        }
+
+        .rate-wrapper {
+            .rate {
+                .condition {
+                    b {
+                        font-size: 10px;
+                    }
+                }
+
+                .detail {
+                    .normal {
+                        .title {
+                            font-size: 9px;
+                        }
+
+                        .price {
+                            font-size: 9px;
+                        }
+                    }
+
+                    .liquid {
+                        .title {
+                            font-size: 9px;
+                        }
+
+                        .price {
+                            font-size: 9px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    footer {
+        .downloads {
+            .flex-raw {
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    footer {
+        h3 {
+            margin-top: 5rem;
+            margin-bottom: 2rem;
+        }
+    }
+}

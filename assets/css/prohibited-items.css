@@ -1,0 +1,61 @@
+@media screen and (max-width: 414px) {
+  #prohibited-items .container .row .prohibited-items-title b {
+    font-size: 18px;
+  }
+  #prohibited-items .container .row .prohibited-items-description p {
+    font-size: 10px;
+  }
+  #prohibited-items .container .row .prohibited-items-list ul li {
+    font-size: 12px;
+  }
+  #prohibited-items .container .row .note b {
+    font-size: 10px;
+  }
+}
+#prohibited-items .prohibited-items-title {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#prohibited-items .prohibited-items-title b {
+  font-size: 35px;
+}
+#prohibited-items .prohibited-items-description {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+#prohibited-items .prohibited-items-description p {
+  font-size: 14px;
+  color: #7b7b93;
+}
+#prohibited-items .prohibited-items-country {
+  border-bottom: 1px solid #f8f8f8;
+  margin-bottom: 5rem;
+}
+#prohibited-items .prohibited-items-country .country-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 2rem;
+  background-color: #fef5e9;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+#prohibited-items .prohibited-items-list li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  column-rule: black;
+  margin-bottom: 1rem;
+}
+#prohibited-items .note {
+  min-height: 110px;
+  width: 100%;
+  display: flex;
+  padding-left: 30px;
+}

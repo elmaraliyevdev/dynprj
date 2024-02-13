@@ -1,0 +1,212 @@
+#intro {
+  padding: 3rem 3rem 0;
+}
+#intro .faq-title {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+#intro .faq-title b {
+  font-size: 35px;
+}
+#intro .faq-description {
+  margin-bottom: 3rem;
+}
+#intro .faq-description p {
+  font-size: 14px;
+  color: #7b7b93;
+}
+
+#login {
+  min-height: 570px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+#login .left .title {
+  text-align: center;
+  font-size: 22px;
+}
+#login .left .form {
+  padding-bottom: 1rem;
+}
+#login .left .form .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+#login .left .form .form-group .email,
+#login .left .form .form-group .password {
+  width: 50%;
+}
+#login .left .form .form-group .email label,
+#login .left .form .form-group .password label {
+  font-size: 15px;
+  margin-left: 0.5rem;
+  margin-bottom: 5px;
+}
+#login .left .form .form-group .email input,
+#login .left .form .form-group .password input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #cecee2;
+  border-radius: 10px;
+  padding: 0 10px;
+  margin-bottom: 1rem;
+  position: relative;
+  outline: none;
+}
+#login .left .form .form-group .email .hidden,
+#login .left .form .form-group .password .hidden {
+  color: #fd475d;
+  font-size: 12px;
+  float: right;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+#login .left .form .form-group .remember {
+  width: 48%;
+}
+#login .left .form .form-group button {
+  margin-top: 1rem;
+  width: 50%;
+  height: 45px;
+  border: 1px solid #cecee2;
+  border-radius: 10px;
+  background-color: #fd475d;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+#login .left .form .form-group .reset {
+  margin-top: 1rem;
+  color: #15b2ec;
+}
+#login .right {
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+}
+#login .right .login-image-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#login .right .login-image-wrap .login-image {
+  width: 100%;
+}
+#login .right .text {
+  margin-top: 2rem;
+  text-align: center;
+  user-select: none;
+}
+#login .right .text span {
+  font-size: 13px;
+}
+#login .right .text a {
+  margin-left: 0.5rem;
+  color: #15b2ec;
+  font-weight: bold;
+  font-size: 13px;
+}
+#login .right .text a:hover {
+  text-decoration: underline;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: block;
+  overflow: hidden;
+}
+.modal-wrapper .modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-wrapper .modal .modal-cont {
+  padding: 1rem;
+  width: 30%;
+  height: 50%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: whitesmoke;
+  z-index: -1;
+}
+.modal-wrapper .modal .modal-cont .close {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  color: #8D8D8D;
+}
+.modal-wrapper .modal .modal-cont .close:hover {
+  color: #fd475d;
+}
+.modal-wrapper .modal .modal-cont .m-title {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.modal-wrapper .modal .modal-cont .m-hint {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+}
+.modal-wrapper .modal .modal-cont .m-hint p {
+  margin: 0;
+  padding: 0;
+}
+.modal-wrapper .modal .m-body {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.modal-wrapper .modal .m-body form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.modal-wrapper .modal .m-body form input {
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.modal-wrapper .modal .m-body form .btn-wrap {
+  margin-top: 2rem;
+}
+.modal-wrapper .modal .m-body form .btn-wrap .register {
+  background-color: #fd475d;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  transition: 0.3s;
+}
+.modal-wrapper .modal .m-body form .btn-wrap .register:hover {
+  transform: translate(0%, -1%);
+  box-shadow: 0px 2px 5px 1px #8D8D8D;
+}
+.modal-wrapper .modal .m-body form .btn-wrap .register:active {
+  transform: translate(0%, 2%);
+  box-shadow: none;
+}

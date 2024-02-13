@@ -1,0 +1,155 @@
+#intro {
+  padding: 3rem 3rem 0;
+}
+#intro .register-title {
+  margin-bottom: 1rem;
+}
+#intro .register-title b {
+  font-size: 35px;
+  text-align: center;
+}
+#intro .register-description {
+  margin-bottom: 1rem;
+}
+#intro .register-description p {
+  font-size: 14px;
+  color: #7b7b93;
+}
+
+#register {
+  padding: 2rem 0 8rem;
+}
+#register .left .title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+#register .left .customer-cat {
+  margin: 3rem 0 2rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+#register .left .customer-cat .person {
+  display: flex;
+  font-size: 14px;
+  color: #94949f;
+  align-items: center;
+  border-radius: 20px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+#register .left .customer-cat .person span {
+  padding: 0;
+  margin-left: 0.3rem;
+  color: #94949f;
+  transition: 0.1s;
+}
+#register .left .customer-cat .person:hover {
+  cursor: pointer;
+  color: #f5a416;
+}
+#register .left .customer-cat .person:hover span {
+  color: #f5a416;
+}
+#register .left .customer-cat .selected {
+  cursor: pointer;
+  color: #f5a416;
+  background-color: #fef5e9;
+  transition: 0.2s ease-in-out;
+}
+#register .left .customer-cat .selected span {
+  color: #f5a416;
+}
+#register .left .form .form-comp {
+  gap: 1.5rem;
+  display: flex;
+  margin: 1rem 0 0 0.5rem;
+  justify-content: center;
+}
+#register .left .form input {
+  padding: 0.5rem;
+  font-size: 15px;
+  border: 1px solid #cecee2;
+  border-radius: 5px;
+  outline: none;
+}
+#register .left .form input:focus::placeholder {
+  color: transparent;
+}
+#register .left .form select {
+  height: 100%;
+  padding: 0.2rem;
+  cursor: pointer;
+  font-size: 14px;
+  color: #747474;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #cecee2;
+}
+#register .left .form .nationality {
+  width: 100%;
+}
+#register .left .form .id-type {
+  border-radius: 5px 0 0 5px;
+}
+#register .left .form .id-number {
+  width: 80%;
+  height: 100%;
+  border-radius: 0 5px 5px 0;
+  background-color: white;
+  border: 1px solid #cecee2;
+  border-left: 0;
+}
+#register .left .form .city,
+#register .left .form .branch {
+  padding: 0.7rem 0.2rem;
+}
+#register .left .form .address {
+  width: 129.4%;
+}
+#register .left .form .btn-wrap {
+  margin-top: 2rem;
+}
+#register .left .form .btn-wrap .register {
+  background-color: #fd475d;
+  padding: 0.5rem 3.5rem;
+  border-radius: 10px;
+  color: white;
+  transition: 0.2s;
+}
+#register .left .form .btn-wrap .register:hover {
+  transform: translate(0%, -1%);
+  box-shadow: 0px 2px 5px 1px #8D8D8D;
+}
+#register .left .form .btn-wrap .register:active {
+  transform: translate(0%, 2%);
+  box-shadow: none;
+}
+#register .right {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+#register .right img {
+  margin-top: 7rem;
+}
+#register .right .text {
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .right {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 465px) {
+  #register .register-form .customer-cat .natural span {
+    font-size: 8px;
+  }
+  #register .register-form .customer-cat .juridical span {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,176 @@
+#intro {
+    // background-color: red;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .news-title {
+        min-height: 70px;
+
+        b {
+            font-size: 35px;
+            text-align: center;
+        }
+    }
+
+    .news-description {
+        margin-bottom: 1rem;
+
+        p {
+            font-size: 14px;
+            color: #7b7b93;
+        }
+    }
+
+    .options-title {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 5.8rem;
+        justify-content: space-between;
+
+        .options {
+            cursor: pointer;
+            color: #7C7C7C;
+            font-size: 14px;
+            border: 1px solid #ede9e9 !important;
+
+            .option-button {
+                font-size: 14px;
+                color: #7C7C7C;
+            }
+        }
+
+        .input-title {
+            border: 1px solid #ede9e9;
+            // border-radius: 5px;
+            min-height: 35px;
+            width: 190px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            input {
+                outline: none;
+                border: none;
+                width: 120px;
+                color: #7C7C7C;
+                font-size: 14px;
+
+                &::placeholder {
+                    font-size: 14px;
+                    color: #7C7C7C;
+
+                }
+            }
+
+            button {
+                border: none;
+                background-color: transparent;
+                width: 30px;
+
+                i {
+                    color: #7C7C7C;
+                }
+            }
+        }
+    }
+
+    #best_seller {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-height: 600px;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+        .miniDiv {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 32%;
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                img {
+                    width: 65%;
+                }
+
+                .markaName {
+                    display: flex;
+                    align-items: center;
+                    width: 65%;
+
+                    h4 {
+                        font-size: 13px;
+                        display: flex;
+                        font-family: source_sans_proregular, sans-serif;
+                        font-weight: 700;
+                    }
+
+                    p {
+                        width: 37%;
+                        font-family: source_sans_proregular, sans-serif;
+                        align-items: center;
+                        display: flex;
+                        margin-top: 7px;
+                        color: #333333;
+                        font-weight: 700;
+                        font-size: 14px;
+                    }
+                }
+
+                .lowerPrice {
+                    color: #bb0000;
+                    font-size: 12px;
+                    font-family: source_sans_proregular, sans-serif;
+                    font-weight: 600;
+                    width: 65%;
+                }
+
+                p {
+                    color: #bb0000;
+                    width: 65%;
+                    font-size: 14px;
+                    font-family: source_sans_proregular, sans-serif;
+                    font-weight: 600;
+                }
+            }
+
+        }
+    }
+
+    .see-more {
+        min-height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        button {
+            border: none;
+            width: 11%;
+            min-height: 46px;
+            background-color: #fff;
+            border-radius: 7px;
+            color: black;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            border: 1px solid black;
+            transition: .4s ease;
+            // &:hover{
+            //     color: #fff;
+            //    background-color: black;
+            // }
+        }
+    }
+}

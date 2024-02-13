@@ -1,0 +1,84 @@
+#privacy-policy {
+  width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+#privacy-policy .container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#privacy-policy .container .privacy-policy-title {
+  min-height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#privacy-policy .container .privacy-policy-title b {
+  font-size: 35px;
+  text-align: center;
+}
+#privacy-policy .container .privacy-policy-content {
+  font-size: 15px;
+}
+#privacy-policy .container .privacy-policy-content .intro p a {
+  color: #fd475d;
+  font-size: 15px;
+}
+#privacy-policy .container .privacy-policy-content .common {
+  margin-bottom: 2rem;
+}
+#privacy-policy .container .privacy-policy-content .common b {
+  font-weight: 400;
+}
+#privacy-policy .container .privacy-policy-content .safety {
+  min-height: 300px;
+}
+#privacy-policy .container .privacy-policy-content .safety b {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 700px) {
+  #privacy-policy .container .row .privacy-policy-title b {
+    font-size: 28px;
+  }
+  #privacy-policy .container .row .privacy-policy-content .intro p {
+    font-size: 13px;
+  }
+  #privacy-policy .container .row .privacy-policy-content .common b {
+    font-size: 13px;
+  }
+  #privacy-policy .container .row .privacy-policy-content .common p {
+    font-size: 13px;
+  }
+  #privacy-policy .container .row .privacy-policy-content .safety b {
+    font-size: 13px;
+  }
+  #privacy-policy .container .row .privacy-policy-content .safety p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 464px) {
+  #privacy-policy .container {
+    width: 80%;
+  }
+  #privacy-policy .container .row .privacy-policy-title b {
+    font-size: 22px;
+  }
+  #privacy-policy .container .row .privacy-policy-content .intro p {
+    font-size: 11px;
+  }
+  #privacy-policy .container .row .privacy-policy-content .common b {
+    font-size: 11px;
+  }
+  #privacy-policy .container .row .privacy-policy-content .common p {
+    font-size: 11px;
+  }
+  #privacy-policy .container .row .privacy-policy-content .safety b {
+    font-size: 11px;
+  }
+  #privacy-policy .container .row .privacy-policy-content .safety p {
+    font-size: 11px;
+  }
+}

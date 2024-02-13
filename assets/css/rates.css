@@ -1,0 +1,123 @@
+#intro .rates-title b {
+  font-size: 35px;
+  min-height: 70px;
+}
+#intro .rates-description {
+  min-height: 130px;
+}
+#intro .rates-description p {
+  font-size: 14px;
+  color: #7b7b93;
+}
+#intro .location {
+  margin-bottom: 15px;
+  gap: 1.5rem;
+}
+#intro .location a {
+  padding: 7px 20px;
+  font-size: 17px;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+#intro .location a:hover {
+  background-color: #fef5e9;
+  border-radius: 5px;
+  color: #fd475d;
+}
+#intro .location a:focus {
+  background-color: #fd475d;
+  border-radius: 5px;
+  color: white;
+}
+#intro .location .active {
+  background-color: #fd475d;
+  border-radius: 5px;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  #services .container .row .services-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #services .container .row .services-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #services .container .row .services-description p {
+    width: 80%;
+  }
+  #services .container .row .services-cards .service-card {
+    flex-wrap: wrap;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #services .container .row .services-cards .service-card .card-gif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #services .container .row .services-cards .service-card .card-text .card-title {
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #services .container .row .services-cards .service-card .card-text .card-title b {
+    font-size: 16px;
+  }
+  #services .container .row .services-cards .service-card .card-text .card-description p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 310px) {
+  #delivery .methods a {
+    font-size: 12px;
+  }
+  #delivery .rate-wrapper .rate .condition b {
+    font-size: 11px;
+  }
+  #delivery .rate-wrapper .rate .detail .normal .title {
+    font-size: 10px;
+  }
+  #delivery .rate-wrapper .rate .detail .normal .price {
+    font-size: 10px;
+  }
+  #delivery .rate-wrapper .rate .detail .liquid .title {
+    font-size: 10px;
+  }
+  #delivery .rate-wrapper .rate .detail .liquid .price {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 381px) {
+  #delivery .methods a {
+    font-size: 12px;
+  }
+  #delivery .rate-wrapper .rate .condition b {
+    font-size: 10px;
+  }
+  #delivery .rate-wrapper .rate .detail .normal .title {
+    font-size: 9px;
+  }
+  #delivery .rate-wrapper .rate .detail .normal .price {
+    font-size: 9px;
+  }
+  #delivery .rate-wrapper .rate .detail .liquid .title {
+    font-size: 9px;
+  }
+  #delivery .rate-wrapper .rate .detail .liquid .price {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #calculator .container .row .texts-resp .text-title b {
+    font-size: 10px;
+  }
+}

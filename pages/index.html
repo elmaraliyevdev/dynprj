@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/imgs/main/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/shared.css">
+    <title>Aydan | Dynamex.az</title>
+</head>
+<noscript>
+    <style type="text/css">
+        body {
+            display: none;
+        }
+    </style>
+</noscript>
+
+<body>
+    <header>
+        <div class="top-header py-2">
+            <div class="container">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="row align-items-center">
+                        <div class="nav justify-content-between">
+                            <div class="top-header-left-side d-flex gap-5 align-items-center">
+                                <a href="tel:*7171" class="d-flex gap-2"><span class="iconify"
+                                        data-icon="healthicons:phone" data-height="16"
+                                        style="color: #7b7b93;"></span>*7171</a>
+                                <a href="./prohibited-items.html">Daşınması qadağan olan məhsullar</a>
+                                <a href="./faq.html">Tez-tez verilən suallar</a>
+                            </div>
+                            <div class="top-header-right-side d-flex gap-4 align-items-center">
+                                <a href="#" class="d-flex align-items-center gap-1 lang-all" id="lang-all">
+                                    <span class="lang" id="lang" style="position: relative;">AZ</span>
+                                    <div class="lang-drop-down" id="lang-drop-down">
+                                        <span class="aze selected" id="aze">AZ</span>
+                                        <span class="eng" id="eng">EN</span>
+                                        <span class="rus" id="rus">RU</span>
+                                    </div>
+                                    <span class="iconify chevron" id="chevron" data-icon="ci:chevron-big-down"
+                                        style="color: black;"></span>
+                                </a>
+                                <a href="./login.html" class="sign-in">Daxil ol</a>
+                                <a href="./register.html" class="sign-up">Qeydiyyat</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid bottom-header">
+                <a class="navbar-brand" href="./index.html"><img src="https://dynamex.az/images/logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img style="width: 19px;height: 19px;" src="https://dynamex.az/css/images/menu.svg" alt="">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav bottom-header-list">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./about.html">Haqqımızda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./services.html">Xidmətlər</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./rates.html">Tariflər</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./stores.html">Mağazalar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./news.html">Yeniliklər</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./contact.html">Əlaqə</a>
+                        </li>
+                        <a href="./login.html" class="cart">
+                            <span class="iconify" data-icon="ic:outline-shopping-cart"
+                                style="position: relative;"></span>
+                            <span class="item-count">0</span>
+                        </a>
+                        <div class="bottom-header-right-side">
+                            <a href="./login.html" class="sign-in">Daxil ol</a>
+                        </div>
+                        <div id="userName" style="background-color: red;">
+
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <div class="second-slider">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 px-0">
+                            <div id="carouselExampleControls" class="carousel slide carousel-fade"
+                                data-bs-ride="carousel">
+                                <div class="carousel-indicators gap-2">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="0" class="active rounded-circle"
+                                        style="height: 8px; width: 8px" aria-label="Slide 1"
+                                        aria-current="true"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="1" class="rounded-circle" style="height: 8px; width: 8px"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="2" class="rounded-circle" style="height: 8px; width: 8px"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="20000">
+                                        <img src="../assets/imgs/index/slider-bg.svg"
+                                            class="d-block w-100 position-relative" alt="slider-background"
+                                            draggable="false">
+                                        <div class="title position-absolute">
+                                            <h2>
+                                                Standart tariflərə endirim etdik!
+                                            </h2>
+                                        </div>
+                                        <div class="subtitle position-absolute">
+                                            <p>
+                                                Sizlərdən gələn çox saylı xahişləri nəzərə alaraq daşınma
+                                                tariflərimizdə yeni endirim kampanyasına start verdik!
+                                            </p>
+                                        </div>
+                                        <div class="button-wrap position-absolute">
+                                            <a href="./rates.html" class="button">Ətraflı</a>
+                                        </div>
+                                        <div class="image position-absolute">
+                                            <img src="../assets/imgs/index/second-slider/discount-on-standart-rates.png"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="20000">
+                                        <img src="../assets/imgs/index/slider-bg.svg"
+                                            class="d-block w-100 position-relative" alt="slider-background"
+                                            draggable="false">
+                                        <div class="title position-absolute">
+                                            <h2>
+                                                Türkiyə və Amerika mağazaları artıq evinizdə
+                                            </h2>
+                                        </div>
+                                        <div class="subtitle position-absolute">
+                                            <p>
+                                                Sərfəli tariflər və sürətli çatdırılma ilə artıq
+                                                Türkiyə və Amerikadan alış-veriş etmək zamanıdır.
+                                            </p>
+                                        </div>
+                                        <div class="button-wrap position-absolute">
+                                            <a href="./services.html" class="button">Ətraflı</a>
+                                        </div>
+                                        <div class="image position-absolute">
+                                            <img src="../assets/imgs/index/second-slider/airplane.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="../assets/imgs/index/slider-bg.svg"
+                                            class="d-block w-100" alt="slider-background"
+                                            draggable="false">
+                                        <div class="title position-absolute">
+                                            <h2>
+                                                Sürətli və rahat Mobil tətbiq
+                                            </h2>
+                                        </div>
+                                        <div class="subtitle position-absolute">
+                                            <p>
+                                                Bağlamalarınızı daha rahat izləmək və
+                                                hesab üzərindən əməliyyat aparmaq üçün
+                                                Dynamex mobil tətbiqimiz istifadəyə verildi!
+                                            </p>
+                                        </div>
+                                        <div class="button-wrap position-absolute">
+                                            <a href="##" class="button">Ətraflı</a>
+                                        </div>
+                                        <div class="image position-absolute">
+                                            <img src="../assets/imgs/index/second-slider/mobile-app.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev" style="width: 5%;">
+                                    <span class="iconify" data-icon="bi:arrow-left-circle" data-height="32"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next" style="width: 5%;">
+                                    <span class="iconify" data-icon="bi:arrow-right-circle" data-height="32"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="how-works">
+            <div class="how-works-title">
+                <b>Necə işləyir?</b>
+            </div>
+            <div class="container-xxl">
+                <div class="row py-5">
+                    <div class="card-wrap col-md-4 col-sm-12 justify-content-center d-flex">
+                        <div class="card align-items-center border-0 w-100">
+                            <img src="../assets/imgs/index/how-to-order.gif" class="card-img-top" alt="how-to-order">
+                            <h5 class="card-title">Necə sifariş edim?</h5>
+                            <p class="card-text">
+                                Məhsulu seçin <br>
+                                Ödəniş edin. <br>
+                                Məhsulu biz alırıq <br>
+                                Yaxud bəyan edin <br>
+                            </p>
+                            <div class="more d-flex align-items-end h-100">
+                                <a href="##">Daha çox</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-wrap col-md-4 col-sm-12 justify-content-center d-flex">
+                        <div class="card align-items-center border-0 w-100">
+                            <img src="../assets/imgs/index/payment.gif" class="card-img-top" alt="how-to-order">
+                            <h5 class="card-title">Ödəniş</h5>
+                            <p class="card-text">
+                                Visa, Master bank kartları <br>
+                                E-Manat vasitəsi ilə ödəniş <br>
+                                Bank kartları olmayanlara yerində nağd ödəniş <br>
+                                Çatdırılma xidməti üçün yerində ödəniş
+                            </p>
+                            <div class="more d-flex align-items-end h-100">
+                                <a href="##">Daha çox</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-wrap col-md-4 col-sm-12 justify-content-center d-flex">
+                        <div class="card align-items-center border-0 w-100">
+                            <img src="../assets/imgs/index/delivery.gif" class="card-img-top" alt="how-to-order">
+                            <h5 class="card-title">Çatdırılma</h5>
+                            <p class="card-text">
+                                Bağlama Türkiyə və ya Amerika anbarına qəbul edilir.
+                                Yüklər qablaşdırılır və Azərbaycana göndərilir.
+                                Bakı,Gəncə və ya Sumqayıt ofisindən bağlamalar təhvil verilir.
+                            </p>
+                            <div class="more d-flex align-items-end h-100">
+                                <a href="##">Daha çox</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="calculator">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-7  col-xl-8 col-lg-9 col-md-12 calculator py-5">
+                        <div class="col-12">
+                            <div class="country d-flex">
+                                <select class="col-8 d-flex" name="country" id="country">
+                                    <option value="usa">Türkiyə</option>
+                                    <option value="türkiye">ABŞ</option>
+                                </select>
+                            </div>
+                            <div class="method-type d-flex">
+                                <select class="col-3" name="method" id="method">
+                                    <option value="address">Birbaşa ünvana çatdırılma</option>
+                                    <option value="branch">Filiala çatdırılma</option>
+                                </select>
+                                <select class="col-3" name="method" id="method">
+                                    <option value="liquid">Maye və kosmetik</option>
+                                    <option value="normal">Adi məhsul</option>
+                                </select>
+                            </div>
+                            <div class="dimensions d-flex">
+                                <input class="col-3" id="width" type="number" min="0" placeholder="En">
+                                <div class="div-1">sm</div>
+                                <input class="col-3" id="length" type="number" min="0" placeholder="Uzunluq">
+                                <div class="div-2">sm</div>
+                            </div>
+                            <div class="dimensions d-flex">
+                                <input class="col-3" id="height" type="number" min="0" placeholder="Hündürlük">
+                                <div class="div-1">sm</div>
+                                <input class="col-3" id="weight" type="number" min="0" placeholder="Çəki">
+                                <div class="div-2">kq</div>
+                            </div>
+                            <div class="btn-wrap d-flex justify-content-center">
+                                <div class="calculate btn">
+                                    Hesabla
+                                </div>
+                            </div>
+                            <div class="result d-flex justify-content-center">
+                                <b id="result">0.00</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 texts">
+                        <div class="text-title">
+                            <b>Kalkulyator</b>
+                        </div>
+                        <div class="text-content">
+                            <p>
+                                Bağlamanın hər hansı bir tərəfinin ölçüsü (Türkiyə)
+                                60 sm (Amerika) 80 sm və daha çox olarsa, bağlamanın
+                                həm həcm, həm də fiziki çəkisi hesablanır. Hansı çəki
+                                yüksək olarsa, daşınma haqqı ona əsasən hesablanır.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="delivery">
+            <div class="container">
+                <div class="deli-title">
+                    <b>Tariflər</b>
+                </div>
+                <div class="location d-flex justify-content-center">
+                    <a href="#delivery" class="türkiye active">Türkiyə</a>
+                    <a href="#delivery" class="usa">ABŞ</a>
+                </div>
+                <div class="row">
+                    <div class="methods d-flex justify-content-center">
+                        <a href="#delivery" class="branch focus">Filiala çatdırılma</a>
+                        <a href="#delivery" class="home">Ünvana çatdırılma</a>
+                    </div>
+                    <div class="rate-wrapper from-türkiye col-12">
+                        <div class="row to-branch justify-content-center">
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.001 kq-dan 0.100 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">1.00 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">1.00 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.101 kq-dan 0.25 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">2.00 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">2.00 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.251 kq-dan 0.500 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">3.00 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">3.00 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.501 kq-dan 0.750 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">3.50 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">3.50 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.751 kq-dan 1 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">3.90 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">3.90 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>1 kq-dan 5 kq-a qədər (Hər kiloqram üçün)</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">3.90 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">3.90 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>5 kq və artıq (Hər kiloqram üçün)</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">3.50 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">3.50 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row to-address justify-content-center" style="display: none;">
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.001 kq-dan 0.100 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">1.50 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">1.50 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.101 kq-dan 0.25 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">2.50 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">2.50 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.251 kq-dan 0.500 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">3.50 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">3.50 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.501 kq-dan 0.750 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">4.00 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">4.00 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.751 kq-dan 1 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">4.40 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">4.40 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>1 kq-dan 5 kq-a qədər (Hər kiloqram üçün)</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">4.40 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">4.40 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>5 kq və artıq (Hər kiloqram üçün)</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">4.00 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">4.00 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rate-wrapper from-usa col-12" style="display: none;">
+                        <div class="row to-branch justify-content-center">
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.001 kq-dan 0.250 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">2.30 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">2.30 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.251 kq-dan 0.500 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">4.30 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">4.30 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.501 kq-dan 0.750 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">6.30 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">6.30 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.751 kq-dan 1 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">6.80 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">6.80 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>1 kq-dan 5 kq-a qədər (Hər kiloqram üçün)</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">6.50 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">6.50 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>5 kq və artıq (Hər kiloqram üçün)</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">6.30 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">6.30 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row to-address justify-content-center" style="display: none;">
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.001 kq-dan 0.250 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">2.80 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">2.80 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.251 kq-dan 0.500 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">4.80 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">4.80 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.501 kq-dan 0.750 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">6.80 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">6.80 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>0.751 kq-dan 1 kq-a qədər</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">7.30 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">7.30 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>1 kq-dan 5 kq-a qədər (Hər kiloqram üçün)</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">7.00 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">7.00 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate d-flex col-xxl-5 col-lg-5 col-md-12 col-sm-12">
+                                <div class="condition">
+                                    <i class="icon">
+                                        <span class="iconify" data-icon="ion:bag-handle-outline" data-height="20"
+                                            style="color: #d3d3e4;"></span>
+                                    </i>
+                                    <b>5 kq və artıq (Hər kiloqram üçün)</b>
+                                </div>
+                                <div class="detail d-flex">
+                                    <div class="normal col-6 d-flex flex-column">
+                                        <span class="title">Adi məhsul</span>
+                                        <span class="price">6.80 </span>
+                                    </div>
+                                    <div class="liquid col-6 d-flex flex-column">
+                                        <span class="title">Maye və kosmetik</span>
+                                        <span class="price">6.80 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-12 news-left">
+                        <div class="news-title">
+                            <b>Yeniliklər və xəbərlər</b>
+                        </div>
+                        <div class="news-desc">
+                            <p>Xidmətlərimizlə bağlı ən son yeniliklər və müxtəlif <br> mövzularda mətumatlandırıcı
+                                bloqlar burada!</p>
+                        </div>
+                        <div class="all-news">
+                            <a href="./news.html">Hamısı
+                                <i><span class="iconify" data-icon="charm:arrow-right" data-height="20"></span></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-sm-12 news-right">
+                        <div class="wrapper">
+                            <div class="o-carousel owl-carousel">
+                                <a href="#" class="card col-lg-3 col-md-5 col-sm-12">
+                                    <img src="../assets/imgs/news/memar-ecemi-tehvil-mentegesi.png" alt="">
+                                    <div class="detail d-flex flex-column justify-content-evenly">
+                                        <b class="title d-block">Dynamex MEMAR ƏCƏMİ təhvil məntəqəsin açdı – Türkiyə və
+                                            Amerikadan daşınma.</b>
+                                        <span class="posted-date d-block">28.06.2022</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="card col-lg-3 col-md-5 col-sm-12">
+                                    <img src="../assets/imgs/news/yaygeyimleri.png" alt="">
+                                    <div class="detail d-flex flex-column justify-content-evenly">
+                                        <b class="title d-block">Yay geyimlərinə heç gözləmədiyiniz fürsət təklifi!</b>
+                                        <span class="posted-date d-block">28.07.2022</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="card col-lg-3 col-md-5 col-sm-12">
+                                    <img src="../assets/imgs/news/bakixanovachildi.png" alt="">
+                                    <div class="detail d-flex flex-column justify-content-evenly">
+                                        <b class="title d-block">
+                                            Dynamex BAKIXANOV təhvil məntəqəsin açdı – Türkiyə və Amerikadan
+                                            daşınma.</b>
+                                        <span class="posted-date d-block">28.07.2022</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="card col-lg-3 col-md-5 col-sm-12">
+                                    <img src="../assets/imgs/news/yayheyacani.jpg" alt="">
+                                    <div class="detail d-flex flex-column justify-content-evenly">
+                                        <b class="title d-block">YAY həyacanını 0% komissiya ilə daha da artırdıq -
+                                            Dynamex.az</b>
+                                        <span class="posted-date d-block">22.05.2022</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="card col-lg-3 col-md-5 col-sm-12">
+                                    <img src="../assets/imgs/news/Yeni-is-saatlari.png" alt="">
+                                    <div class="detail d-flex flex-column justify-content-evenly">
+                                        <b class="title d-block">Filial və Təhvil məntəqələrimiz yeni iş saatları</b>
+                                        <span class="posted-date d-block">20.05.2022</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="card col-lg-3 col-md-5 col-sm-12">
+                                    <img src="../assets/imgs/news/bayram-gunleri.png" alt="">
+                                    <div class="detail d-flex flex-column justify-content-evenly">
+                                        <b class="title d-block">Bayram günlərində iş qrafikimiz</b>
+                                        <span class="posted-date d-block">30.04.2022</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="card col-lg-3 col-md-5 col-sm-12">
+                                    <img src="../assets/imgs/news/azin-her-noqtesinde.png" alt="">
+                                    <div class="detail d-flex flex-column justify-content-evenly">
+                                        <b class="title d-block">Azərbaycanın hər bir nöqtəsində sizlərin
+                                            Xidmətinizdəyik - Dynamex.az</b>
+                                        <span class="posted-date d-block">27.04.2022</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="card col-lg-3 col-md-5 col-sm-12">
+                                    <img src="../assets/imgs/news/nezerine1.png" alt="">
+                                    <div class="detail d-flex flex-column justify-content-evenly">
+                                        <b class="title d-block">Müştərilərimizin nəzərinə - Dynamex.az</b>
+                                        <span class="posted-date d-block">19.04.2022</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="card col-lg-3 col-md-5 col-sm-12">
+                                    <img src="../assets/imgs/news/bir-yox.jpg" alt="">
+                                    <div class="detail d-flex flex-column justify-content-evenly">
+                                        <b class="title d-block">Sizə 1 YOX, 2 YOX 3 MÖHTƏŞƏM kampaniya təklif
+                                            edirik!</b>
+                                        <span class="posted-date d-block">26.03.2022</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="card col-lg-3 col-md-5 col-sm-12">
+                                    <img src="../assets/imgs/news/novzur.png" alt="">
+                                    <div class="detail d-flex flex-column justify-content-evenly">
+                                        <b class="title d-block">Novruz 0% komissiya ilə gətirdik - Dynamex.az</b>
+                                        <span class="posted-date d-block">16.03.2022</span>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="youtube">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <span class="yt-icon rounded-circle d-flex justify-content-center align-items-center"
+                            style="position: absolute; z-index: 1; width: 90px; height: 90px; background-color: #fd475d; transform: translate(-20px, -14px); box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.11);">
+                            <span class="iconify" data-icon="ant-design:youtube-filled" style="color: white;"
+                                data-height="48"></span>
+                        </span>
+                        <div class="youtube-header" style="position: relative;">
+                            <span>YouTube-da bizi izləyin</span>
+                        </div>
+                        <div class="youtube-body">
+                            <div class="videos row col-12">
+                                <div class="wrapper d-flex justify-content-center">
+                                    <div class="y-carousel owl-carousel d-flex justify-content-center">
+                                        <a href="##" class="video">
+                                            <div class="thumbnail">
+                                                <img src="../assets/imgs/index/youtube/how-fill-decleration.png" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <b>Türkiyədən çatdırılma | Bəyannamə necə doldurulur?</b>
+                                            </div>
+                                        </a>
+                                        <a href="##" class="video">
+                                            <div class="thumbnail">
+                                                <img src="../assets/imgs/index/youtube/whats-tracking-id.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <b>#LeylaCavablayır Tracking ID nədir?</b>
+                                            </div>
+                                        </a>
+                                        <a href="##" class="video">
+                                            <div class="thumbnail">
+                                                <img src="../assets/imgs/index/youtube/where-is-dynamex.png" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <b>Dynamex haradadır?</b>
+                                            </div>
+                                        </a>
+                                        <a href="##" class="video">
+                                            <div class="thumbnail">
+                                                <img src="../assets/imgs/index/youtube/black-friday-2022.png" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <b>#LeylaCavablayır Noyabr - endirimlər ayı</b>
+                                            </div>
+                                        </a>
+                                        <a href="##" class="video">
+                                            <div class="thumbnail">
+                                                <img src="../assets/imgs/index/youtube/order-for-me.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <b>#LeylaCavablayır Mənim üçün sifariş et</b>
+                                            </div>
+                                        </a>
+                                        <a href="##" class="video">
+                                            <div class="thumbnail">
+                                                <img src="../assets/imgs/index/youtube/how-fill-decleration.png" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <b>Dynamex.az-da bəyannamə necə əlavə edilir?</b>
+                                            </div>
+                                        </a>
+                                        <a href="##" class="video">
+                                            <div class="thumbnail">
+                                                <img src="../assets/imgs/index/youtube/dynamex-app-published.png" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <b>Dynamex mobil tətbiqi istifadəyə verildi.</b>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="stores">
+            <div class="container">
+                <div class="row">
+                    <div class="stores col-12">
+                        <div class="wrapper">
+                            <div class="s-carousel owl-carousel">
+                                <a class="store" href="https://www.defacto.com.tr/" target="_blank">
+                                    <img src="../assets/imgs/index/stores/m-defacto.png" alt="defacto">
+                                </a>
+                                <a class="store" href="https://www.lcwaikiki.com/" target="_blank">
+                                    <img src="../assets/imgs/index/stores/m-lc-waikiki.png" alt="lc-waikiki">
+                                </a>
+                                <a class="store" href="https://shop.mango.com/tr/" target="_blank">
+                                    <img src="../assets/imgs/index/stores/m-mango.png" alt="mango">
+                                </a>
+                                <a class="store" href="https://www.n11.com/" target="_blank">
+                                    <img src="../assets/imgs/index/stores/m-n11.jpg" alt="n11">
+                                </a>
+                                <a class="store" href="https://www.pierrecardin.com.tr/" target="_blank">
+                                    <img src="../assets/imgs/index/stores/m-pierre-cardin.jpg" alt="pierre-cardin">
+                                </a>
+                                <a class="store" href="https://www.trendyol.com/" target="_blank">
+                                    <img src="../assets/imgs/index/stores/m-trendyol.png" alt="trendyol">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer">
+            <div class="row">
+                <div class="col-md-12 mt-5 mb-5">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12">
+                            <a href="./index.html" class="white-logo">
+                                <img class="mb-4" src="../assets/imgs/main/logo-white.svg" alt="Dynamex Logo" width="160">
+                            </a>
+                            <p class="mb-5"><span class="iconify" data-icon="mdi:copyright"></span> 2022
+                                Dynamex.az<br>Bütün hüquqlar qorunur</p>
+                            <div class="socials">
+                                <a href="https://www.facebook.com/dynamex.az/" class="social" target="_blank">
+                                    <span class="iconify" data-icon="cib:facebook-f" data-height="20"></span>
+                                </a>
+                                <a href="https://dynamex.az/about-us.html#" class="social" target="_blank">
+                                    <span class="iconify" data-icon="akar-icons:twitter-fill" data-height="20"
+                                      ></span>
+                                </a>
+                                <a href="https://www.instagram.com/dynamic.express/?hl=en" class="social"
+                                    target="_blank">
+                                    <span class="iconify" data-icon="akar-icons:instagram-fill" data-height="20"
+                                      ></span>
+                                </a>
+                                <a href="https://www.youtube.com/channel/UCnNG1fkf-8Wd3SKbS0Ioavg/featured"
+                                    class="social" target="_blank">
+                                    <i>
+                                        <span class="iconify" data-icon="akar-icons:youtube-fill" data-height="20"
+                                      ></span>
+                                    </i>
+                                </a>
+                            </div>
+                            <div class="downloads">
+                                <h3 class="downloads-title">Mobil Tətbiqi Endir!</h3>
+                                <div class="d-flex flex-raw gap-3">
+                                    <a href='https://play.google.com/store/apps/details?id=az.dynamex.app'
+                                        target="_blank">
+                                        <img alt='Get it on Google Play' width="150"
+                                            src='../assets/imgs/main/google-play.png' />
+                                    </a>
+                                    <a href="https://apps.apple.com/ca/app/dynamex/id1559258269" target="_blank">
+                                        <img src="../assets/imgs/main/app-store.png" width="135" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <h3>Menu</h3>
+                            <ul class="menu-list">
+                                <li><a href="./about.html">Haqqımızda</a></li>
+                                <li><a href="./services.html">Xidmətlər</a></li>
+                                <li><a href="./rates.html">Tariflər</a></li>
+                                <li><a href="./stores.html">Mağazalar</a></li>
+                                <li><a href="./news.html">Yeniliklər</a></li>
+                                <li><a href="./contact.html">Əlaqə</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <h3>Kömək</h3>
+                            <ul class="help-list">
+                                <li><a href="./faq.html">Tez-tez verilən suallar</a></li>
+                                <li><a href="#">Şərtlər</a></li>
+                                <li><a href="./privacy-policy.html">Gizlilik siyasəti</a></li>
+                                <li><a href="./agreement.html">İstifadəçi Razılaşması</a></li>
+                                <li><a href="./news.html">Yeniliklər</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <h3>Əlaqə</h3>
+                            <ul class="contact-list">
+                                <li>
+                                    <a href="mailto:info@dynamex.az">Problemli şöbə ilə əlaqə: info@dynamex.az</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:hr@dynamex.az">Əməkdaşlıq üçün : hr@dynamex.az</a>
+                                </li>
+                                <li>
+                                    <a href="tel:*7171" class="d-flex gap-2">
+                                        <span class="iconify" data-icon="healthicons:phone" data-height="16"
+                                            style="color: #7b7b93;"></span>
+                                        *7171
+                                    </a>
+                                </li>
+                            </ul>
+                            <h3 class="address-title">Ünvanlar</h3>
+                            <ul class="address-list">
+                                <li>
+                                    28 May, Dəmir yolu vağzalı 2-ci mərtəbə AZ 1020.
+                                </li>
+                                <li>
+                                    Gəncə ş, AZ 2013 Kəpəz r-nu, N.Nərimanov pr, 42C.
+                                </li>
+                                <li>
+                                    Sumqayıt ş, H.Əliyev pr, 493-503,14 mərtəbənin yanı.
+                                </li>
+                                <li>
+                                    Xalqlar Dostluğu, İsmayıl Məmmədov küçəsi 6, AZ1142.
+                                </li>
+                                <li>
+                                    Yasamal, A.M.Şərifzadə küç, Şəbəkə xidmət mərkəzi AZ1138.
+                                </li>
+                                <li>
+                                    Xırdalan ş. H.Əliyev pr. 11, Kristal Abşeron 2.
+                                </li>
+                                <li>
+                                    Əhmədli Ukrayna dairəsi, Gəncə pr, Vunq Tau küç 2.
+                                </li>
+                                <li>
+                                    Bakıxanov qəs, S.Qocayev küç, AZ1132-ın yanı.
+                                </li>
+                                <li>
+                                    Nəsimi r-nu, 3-cü mkr, Hüseynbala Əliyev küç.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"
+        integrity="sha512-lYMiwcB608+RcqJmP93CMe7b4i9G9QK1RbixsNu4PzMRJMsqr/bUrkXUuFzCNsRUo3IXNUr5hz98lINURv5CNA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../assets/js/shared.js"></script>
+    <script src="../assets/js/index.js"></script>
+    <script src="../assets/js/calculator.js"></script>
+    <script src="../assets/js/rates.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.9.3/countUp.js"
+        integrity="sha512-C/7jeRahXJbaKh+NVXBiX8Mw/9kiJxCP2uEzMTQPzqzylSfzgqWxJDYYW+IrrweOFov66E2mr8JAADL7oGOY1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4../assets/owl.carousel.min.css">
+</body>
+
+</html>

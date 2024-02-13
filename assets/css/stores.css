@@ -1,0 +1,43 @@
+#stores .stores-title {
+  margin-bottom: 1rem;
+}
+#stores .stores-title b {
+  font-size: 35px;
+}
+#stores .stores-description {
+  margin-bottom: 3rem;
+}
+#stores .stores-description p {
+  font-size: 14px;
+  color: #7b7b93;
+}
+#stores .store-wrapper {
+  gap: 1rem;
+}
+#stores .store-wrapper .store {
+  margin-bottom: 2rem;
+}
+#stores .store-wrapper .store a {
+  display: flex;
+  justify-content: center;
+  padding: 2.3rem 2rem;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+#stores .store-wrapper .store a:hover {
+  border: 1px solid #cecee2;
+  scale: 105%;
+}
+#stores .store-wrapper .store img {
+  width: 100%;
+}
+
+@media screen and (max-width: 473px) {
+  #stores .container .row .stores-title b {
+    font-size: 20px;
+  }
+  #stores .container .row .stores-description p {
+    font-size: 12px;
+  }
+}

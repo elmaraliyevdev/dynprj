@@ -1,0 +1,14 @@
+#news {
+    .container {
+        .row {
+            .card {
+                border: none;
+                gap: 10px;
+
+                img {
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}

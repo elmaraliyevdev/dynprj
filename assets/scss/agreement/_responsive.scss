@@ -1,0 +1,49 @@
+@media screen and (max-width:888px) {
+    #agreement {
+        .container {
+            width: 70%;
+        }
+    }
+}
+@media screen and (max-width:480px) {
+    #agreement{
+        .container{
+            .row{
+                .agreement-title{
+                    b{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:432px) {
+    #agreement {
+        .container {
+            width: 70%;
+
+            .row {
+                .agreement-title{
+                    b{
+                        font-size: 20px;
+                    }
+                }
+                .agreement-content {
+
+                    .part{
+                        b{
+                            font-size: 10px;
+                        }
+                        p{
+                            font-size: 10px;
+                            a{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

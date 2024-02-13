@@ -1,0 +1,53 @@
+@media screen and (max-width:455px) {
+    #faq{
+        .container{
+            .row{
+                .faq-title{
+                    b{
+                        font-size: 20px;
+                    }
+                }
+                .faq-description{
+                    p{
+                        font-size: 13px;
+                    }
+                }
+                .faq{
+                    .question-box{
+                        b{
+                            font-size: 14px;
+                        }
+                    
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:406px) {
+    #faq{
+        .container{
+            .row{
+                .faq-title{
+                    b{
+                        font-size: 20px;
+                    }
+                }
+                .faq-description{
+                    p{
+                        font-size: 11px;
+                    }
+                }
+                .faq{
+                    .question-box{
+                        b{
+                            font-size: 8px;
+                        }
+                    
+                    }
+                }
+            }
+        }
+    }
+}

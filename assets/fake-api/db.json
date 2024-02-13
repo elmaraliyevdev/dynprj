@@ -1,0 +1,247 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "image": "https://cdn.dsmcdn.com/ty997/product/media/images/prod/SPM/PIM/20230908/18/abc149a8-bc5c-3271-b94f-c3ae0f053ab9/1_org_zoom.jpg",
+      "name": "Retro spor ayakkabı",
+      "marka": "Pull & Bear",
+      "title": "ayaqqabı",
+      "price": 620,
+      "link": "https://www.trendyol.com/sr?wb=592&os=1&sk=1"
+    },
+    {
+      "id": "2",
+      "image": "https://cdn.dsmcdn.com/ty754/product/media/images/20230228/14/291637712/871137720/1/1_org_zoom.jpg",
+      "name": "Erkek spor ayakkabı",
+      "marka": "Pull & Bear",
+      "title": "ayaqqabı",
+      "price": 850,
+      "link": "https://www.trendyol.com/sr?wb=592&os=1&sk=1"
+    },
+    {
+      "id": "3",
+      "image": "https://cdn.dsmcdn.com/ty1080/product/media/images/prod/SPM/PIM/20231207/17/961620f2-e33a-3be3-b84b-4b79c47fb027/1_org_zoom.jpg",
+      "name": "Fermuarlı Sweatshirt",
+      "marka": "Koton",
+      "title": "sweatshirt",
+      "price": 365.99,
+      "link": "https://www.trendyol.com/sr?q=Koton&qt=Koton&st=Koton&os=1"
+    },
+    {
+      "id": "4",
+      "image": "https://cdn.dsmcdn.com/ty1013/product/media/images/prod/SPM/PIM/20231011/18/e1afaaca-6910-32b9-9a9d-c4aac410dc58/1_org_zoom.jpg",
+      "name": "Dik yaka kazak",
+      "title": "Kazak",
+      "marka": "Bershka",
+      "price": 550,
+      "link": "https://www.trendyol.com/sr?q=bershka&qt=bershka&st=bershka&os=1"
+    },
+    {
+      "id": "5",
+      "image": "https://cdn.dsmcdn.com/ty1112/product/media/images/prod/SPM/PIM/20231227/19/b5c7bf4c-2d2b-3e99-94ad-2cd9e38ffb84/1_org_zoom.jpg",
+      "name": "Çapraz askılı çanta",
+      "title": "çanta",
+      "marka": "Pull & Bear",
+      "price": 450,
+      "link": "https://www.trendyol.com/sr?wb=592&os=1&sk=1"
+    },
+    {
+      "id": "6",
+      "image": "https://cdn.dsmcdn.com/ty1136/product/media/images/prod/SPM/PIM/20240116/01/ef90c3d9-22db-332d-be0f-56734312eec2/1_org_zoom.jpg",
+      "name": "Geometrik Şekilli Kolye",
+      "title": "aksesuar",
+      "marka": "Koton",
+      "price": 121.54,
+      "link": "https://www.trendyol.com/sr?q=Koton&qt=Koton&st=Koton&os=1/"
+    },
+    {
+      "id": "7",
+      "image": "https://cdn.dsmcdn.com/ty1147/product/media/images/prod/SPM/PIM/20240126/16/15d91532-9f8c-3c79-8729-de939eb41351/1_org_zoom.jpg",
+      "name": "Uzun Kollu Elbise",
+      "title": "elbise",
+      "marka": "Defacto",
+      "price": 549.99,
+      "link": "https://www.trendyol.com/sr?wb=37&os=1&sk=1"
+    },
+    {
+      "id": "8",
+      "image": "https://cdn.dsmcdn.com/ty988/product/media/images/prod/SPM/PIM/20230819/19/6595400c-8339-37bb-a1f2-23f1c0d901c6/1_org_zoom.jpg",
+      "name": "Vücuda Oturan Bluz",
+      "title": "bluz",
+      "marka": "Stradivarius",
+      "price": 519.99,
+      "link": "https://www.trendyol.com/sr?q=stradivarius&qt=stradivarius&st=stradivarius&os=1"
+    },
+    {
+      "id": "9",
+      "image": "https://cdn.dsmcdn.com/ty864/product/media/images/20230505/15/340439657/455983520/1/1_org_zoom.jpg",
+      "name": "Fit Kargo Pantolon",
+      "title": "pantolon",
+      "marka": "Stradivarius",
+      "price": 990,
+      "link": "https://www.trendyol.com/sr?q=stradivarius&qt=stradivarius&st=stradivarius&os=1"
+    },
+    {
+      "id": "10",
+      "image": "https://cdn.dsmcdn.com/ty1024/product/media/images/prod/SPM/PIM/20231027/01/d617a4fa-d12d-30ce-8a40-ab8be44b75fa/1_org_zoom.jpg",
+      "name": "Kız Çocuk Kazak",
+      "title": "sweatshirt",
+      "marka": "Defacto",
+      "price": 199.99,
+      "link": "https://www.trendyol.com/sr?wb=37&os=1&sk=1"
+    },
+    {
+      "id": "11",
+      "image": "https://cdn.dsmcdn.com/ty1159/product/media/images/prod/SPM/PIM/20240205/02/d7091f52-8650-31b9-8603-3e42a6debcda/1_org_zoom.jpg",
+      "name": "Miav Baskılı Sweatshirt",
+      "title": "sweatshirt",
+      "marka": "Mavi",
+      "price": 699.99,
+      "link": "https://www.trendyol.com/sr?q=mavi&qt=mavi&st=mavi&os=1"
+    },
+    {
+      "id": "12",
+      "image": "https://cdn.dsmcdn.com/ty1134/product/media/images/prod/SPM/PIM/20240115/05/af7e5e54-3005-3a58-990f-38aabe8e9a1b/1_org_zoom.jpg",
+      "name": "Bordo Sweatshirt",
+      "title": "sweatshirt",
+      "marka": "Mavi",
+      "price": 1290,
+      "link": "https://www.trendyol.com/sr?q=mavi&qt=mavi&st=mavi&os=1"
+    },
+    {
+      "id": "13",
+      "image": "https://cdn.dsmcdn.com/ty1025/product/media/images/prod/SPM/PIM/20231025/01/abf37d82-0190-35a6-b8e1-bcde0da44ba6/1_org_zoom.jpg",
+      "name": "Kız Çocuk Sweatshirt",
+      "title": "sweatshirt",
+      "marka": "Defacto",
+      "price": 349.99,
+      "link": "https://www.trendyol.com/sr?wb=37&os=1&sk=1"
+    },
+    {
+      "id": "15",
+      "image": "https://cdn.dsmcdn.com/ty996/product/media/images/prod/SPM/PIM/20230906/17/3b4f9213-b653-3225-abf7-9122830b9354/1_org_zoom.jpg",
+      "name": "Kapüşonlu ceket",
+      "title": "ceket",
+      "marka": "Bershka",
+      "price": 1110,
+      "link": "https://www.trendyol.com/sr?q=bershka&qt=bershka&st=bershka&os=1"
+    },
+    {
+      "id": "16",
+      "image": "https://cdn.dsmcdn.com/ty721/product/media/images/20230207/16/276996481/852604816/1/1_org_zoom.jpg",
+      "name": "Küçük Taşlı Babet",
+      "title": "ayaqqabı",
+      "marka": "Stradivarius",
+      "price": 1190,
+      "link": "https://www.trendyol.com/sr?q=stradivarius&qt=stradivarius&st=stradivarius&os=1"
+    },
+    {
+      "id": "17",
+      "image": "https://cdn.dsmcdn.com/ty1155/product/media/images/prod/SPM/PIM/20240201/18/d95f935d-19b7-3fee-a011-4ede7cb8f1ab/1_org_zoom.jpg",
+      "name": "Çapraz çanta",
+      "title": "çanta",
+      "marka": "Stradivarius",
+      "price": 790,
+      "link": "https://www.trendyol.com/sr?q=stradivarius&qt=stradivarius&st=stradivarius&os=1"
+    },
+    {
+      "id": "18",
+      "image": "https://cdn.dsmcdn.com/ty1115/product/media/images/prod/SPM/PIM/20231231/01/01bfb69d-8e31-3581-85d3-23fdf48f3708/1_org_zoom.jpg",
+      "name": "V Yaka Tişört",
+      "title": "tişört",
+      "marka": "Defacto",
+      "price": 179.99,
+      "link": "https://www.trendyol.com/sr?wb=37&os=1&sk=1"
+    },
+    {
+      "id": "19",
+      "image": "https://cdn.dsmcdn.com/ty948/product/media/images/20230612/16/385061185/967832014/1/1_org_zoom.jpg",
+      "name": "Çok cepli çanta",
+      "title": "çanta",
+      "marka": "Bershka",
+      "price": 790,
+      "link": "https://www.trendyol.com/sr?q=bershka&qt=bershka&st=bershka&os=1"
+    },
+    {
+      "id": "20",
+      "image": "https://cdn.dsmcdn.com/ty1148/product/media/images/prod/SPM/PIM/20240126/16/3be81740-c691-349e-8e8d-dccc179cfe6e/1_org_zoom.jpg",
+      "name": "Küçük Taşlı Babet",
+      "title": "ayaqqabı",
+      "marka": "Stradivarius",
+      "price": 890,
+      "link": "https://www.trendyol.com/sr?q=stradivarius&qt=stradivarius&st=stradivarius&os=1"
+    },
+    {
+      "id": "21",
+      "image": "https://cdn.dsmcdn.com/ty1130/product/media/images/prod/SPM/PIM/20240111/05/19763cbb-73b5-377a-a064-8af9342ff16f/1_org_zoom.jpg",
+      "name": "Baskılı Pijama Takımı",
+      "title": "pijama",
+      "marka": "Penti",
+      "price": 479.99,
+      "link": "https://www.trendyol.com/"
+    }
+  ],
+  "comment": [
+    {
+      "id": "f80f",
+      "name": "Aydan",
+      "surname": "Esedova",
+      "phone": "0704058363",
+      "email": "sd2d2n2qh@code.edu.az",
+      "message": "Salam"
+    },
+    {
+      "id": "7b8f",
+      "name": "Leyla",
+      "surname": "Mirzeyeva",
+      "phone": "777",
+      "email": "aydan@gmail.com",
+      "message": "Hello"
+    },
+    {
+      "id": "5342",
+      "name": "Aydan",
+      "surname": "Esedova",
+      "phone": "777",
+      "email": "aydan@gmail.com",
+      "message": "weqwdqw"
+    }
+  ],
+  "register": [
+    {
+      "id": "1",
+      "name": "Aydan",
+      "surname": "Esed",
+      "phone": "704058363",
+      "email": "aydanesedova@gmail.com",
+      "date": "30.11.2003"
+    },
+    {
+      "id": "4adc",
+      "name": "FIlyar",
+      "surname": "Mirzeyeva",
+      "email": "11111111111111111111@gmail",
+      "phoneNumber": "050null",
+      "birthDate": "275760-05-05",
+      "nationality": "resident",
+      "idType": "AZE",
+      "idNumber": "55555555",
+      "idPin": "5555555",
+      "city": "AGS",
+      "branch": "28may",
+      "address": "55555555555",
+      "password": "55555555555",
+      "confPassword": "55555555555"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Aydan",
+      "surname": "Esed",
+      "phone": "704058363",
+      "email": "elmar@gmail.com",
+      "password": "123456"
+    }
+  ]
+}

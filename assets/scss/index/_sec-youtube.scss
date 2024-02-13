@@ -1,0 +1,82 @@
+// #youtube{
+//     padding: 5rem 1rem;
+//     .youtube-header{
+//         color: white;
+//         background-color: #fd475d;
+//         width: 100%;
+//         padding: 1rem 0rem 1rem 7rem;
+//         border-radius: 10px 10px 0 0;
+//         font-size: 22px;
+//     }
+//     .youtube-body{
+//         padding: 3rem 0 1rem;
+//         display: flex;
+//         align-items: center;
+//         background-color: #f1f1f1;
+//         width: 100%;
+//         border-radius: 0 0 10px 10px;
+//         .videos{
+//             padding-left: 4rem;
+//             padding-right: 2rem;
+//             .video{
+//                 img{
+//                     width: 80%;
+//                     border: 1px solid #e6e6e6;
+//                     border-bottom: 0;
+//                     border-radius: 10px 10px 0 0;
+//                     object-fit: cover !important;
+//                 }
+//                 .text{
+//                     width: 80%;
+//                     padding: 1rem;
+//                     height: 72px;
+//                     border: 1px solid #e6e6e6;
+//                     background-color: #fdfaf1;
+//                     border-top: 0;
+//                     border-radius: 0 0 10px 10px;
+//                 }
+//             }
+//         }
+//     }
+//     .y-carousel{
+//         display: flex;
+//         flex-direction: column;
+//         .owl-stage-outer{
+//             padding-left: 2rem;
+//         }
+//         .owl-nav{
+//             display: flex;
+//             justify-content: center;
+//             margin-top: 2rem;
+//             gap: 1rem;
+//             .owl-prev{
+//                 width: 40px;
+//                 height: 40px;
+//                 color: grey;
+//                 display: flex;
+//                 font-size: 22px;
+//                 border-radius: 50%;
+//                 align-items: center;
+//                 justify-content: center;
+//                 background-color: #fef5e9;
+//                 &:hover{
+//                     color: #fd475d;
+//                 }
+//             }
+//             .owl-next{
+//                 width: 40px;
+//                 height: 40px;
+//                 color: grey;
+//                 display: flex;
+//                 font-size: 22px;
+//                 border-radius: 60%;
+//                 align-items: center;
+//                 justify-content: center;
+//                 background-color: #fef5e9;
+//                 &:hover{
+//                     color: #fd475d;
+//                 }
+//             }
+//         }
+//     }
+// }

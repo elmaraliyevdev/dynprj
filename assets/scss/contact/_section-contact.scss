@@ -1,0 +1,156 @@
+#contact{
+    .info{
+        margin-bottom: 3rem;
+        .info-title{
+            margin-bottom: 2rem;
+            b{
+                font-size: 21px;
+                font-weight: 500;
+            }
+        }
+        .info-content{
+            margin-bottom: 1rem;
+            ul{
+                list-style: none;
+                padding: 0;
+                color: #7b7b93;
+                font-size: 13px;
+                li{
+                    margin-bottom: .3rem;
+                }
+            }
+            .col-6{
+                justify-content: center;
+                border-radius: 50%;
+                align-items: center;
+                width: 50px;
+                height: 50px;
+            }
+            .email{
+                background-color: #ccf4eb;
+
+            }
+            .tel{
+                background-color: #f4eccc;
+            }
+            .address{
+                background-color: #cce4f4;
+            }
+            .hours{
+                background-color: #ecccf4;
+            }
+        }
+        .hours-list{
+            display: flex;
+            align-items: center;
+            margin-top: 1rem;
+            justify-content: center;
+            p{
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 13px;
+                color: #7b7b93;
+                font-weight: 400;
+                &:hover{
+                    color: #606070;
+                }
+            }
+        }
+        .socials{
+            display: flex;
+            gap: 10px;
+            .social{
+               width: 40px;
+               margin-top: 1rem;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               height: 40px;
+               background-color: #ececf3;
+                border-radius: 50%;
+                font-size: 14px;
+                color: #c4c2c2;
+                transition: 0.4s ease;
+                &:hover{
+                    color: #fff;
+                    transition: .1s ease-in-out;
+                    background-color: #fd475d;
+                }
+            }
+        }
+    }
+    .form{
+        margin-bottom: 3rem;
+        .form-title{
+            margin-bottom: 2rem;
+            b{
+                font-size: 21px;
+                font-weight: 500;
+            }
+        }
+        .form-content{
+            form{
+                label{
+                    display: block;
+                    color: #7b7b93;
+                    font-size: 14px;
+                    margin-bottom: .5rem;
+                }
+                input{
+                    outline: none;
+                    padding: .5rem;
+                    background-color: #fef5e9;
+                    border: 0;
+                    border-radius: 10px;
+                    width: 90%;
+                    height: 43px;
+                    box-shadow: 0px 0px 1px 1px #e3e3e3;
+                }
+                textarea{
+                    border: 0;
+                    width: 95%;
+                    height: 120px;
+                    resize: none;
+                    outline: none;
+                    padding: .8rem;
+                    border-radius: 10px;
+                    background-color: #fef5e9;
+                    box-shadow: 0px 0px 1px 1px #e3e3e3;
+                }
+                span{
+                    margin-top: .2rem;
+                    font-size: 13px;
+                    color: #fd475d;
+                    visibility: hidden;
+                    &::before{
+                        content: url('https://api.iconify.design/ep/warning.svg?color=%23fd475d');
+                        margin-right: .2rem;
+                        margin-top: .1rem;
+                        margin-left: .5rem;
+                    }
+                }
+                .recaptcha{
+                    margin: 1rem 1rem;
+                }
+                .btn-wrap{
+                    margin-bottom: 1rem;
+                    .send{
+                        background-color: #fd475d;
+                        padding:.85rem 3.5rem; 
+                        border-radius: 10px; 
+                        color: white;
+                        transition: .2s;
+                        &:hover{
+                            transform: translate(0%, -1%);
+                            box-shadow: 0px 2px 5px 1px #8D8D8D;
+                        }
+                        &:active{
+                            transform: translate(0%, 2%);
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,175 @@
+#contact .info {
+  margin-bottom: 3rem;
+}
+#contact .info .info-title {
+  margin-bottom: 2rem;
+}
+#contact .info .info-title b {
+  font-size: 21px;
+  font-weight: 500;
+}
+#contact .info .info-content {
+  margin-bottom: 1rem;
+}
+#contact .info .info-content ul {
+  list-style: none;
+  padding: 0;
+  color: #7b7b93;
+  font-size: 13px;
+}
+#contact .info .info-content ul li {
+  margin-bottom: 0.3rem;
+}
+#contact .info .info-content .col-6 {
+  justify-content: center;
+  border-radius: 50%;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+#contact .info .info-content .email {
+  background-color: #ccf4eb;
+}
+#contact .info .info-content .tel {
+  background-color: #f4eccc;
+}
+#contact .info .info-content .address {
+  background-color: #cce4f4;
+}
+#contact .info .info-content .hours {
+  background-color: #ecccf4;
+}
+#contact .info .hours-list {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  justify-content: center;
+}
+#contact .info .hours-list p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  color: #7b7b93;
+  font-weight: 400;
+}
+#contact .info .hours-list p:hover {
+  color: #606070;
+}
+#contact .info .socials {
+  display: flex;
+  gap: 10px;
+}
+#contact .info .socials .social {
+  width: 40px;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background-color: #ececf3;
+  border-radius: 50%;
+  font-size: 14px;
+  color: #c4c2c2;
+  transition: 0.4s ease;
+}
+#contact .info .socials .social:hover {
+  color: #fff;
+  transition: 0.1s ease-in-out;
+  background-color: #fd475d;
+}
+#contact .form {
+  margin-bottom: 3rem;
+}
+#contact .form .form-title {
+  margin-bottom: 2rem;
+}
+#contact .form .form-title b {
+  font-size: 21px;
+  font-weight: 500;
+}
+#contact .form .form-content form label {
+  display: block;
+  color: #7b7b93;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+#contact .form .form-content form input {
+  outline: none;
+  padding: 0.5rem;
+  background-color: #fef5e9;
+  border: 0;
+  border-radius: 10px;
+  width: 90%;
+  height: 43px;
+  box-shadow: 0px 0px 1px 1px #e3e3e3;
+}
+#contact .form .form-content form textarea {
+  border: 0;
+  width: 95%;
+  height: 120px;
+  resize: none;
+  outline: none;
+  padding: 0.8rem;
+  border-radius: 10px;
+  background-color: #fef5e9;
+  box-shadow: 0px 0px 1px 1px #e3e3e3;
+}
+#contact .form .form-content form span {
+  margin-top: 0.2rem;
+  font-size: 13px;
+  color: #fd475d;
+  visibility: hidden;
+}
+#contact .form .form-content form span::before {
+  content: url("https://api.iconify.design/ep/warning.svg?color=%23fd475d");
+  margin-right: 0.2rem;
+  margin-top: 0.1rem;
+  margin-left: 0.5rem;
+}
+#contact .form .form-content form .recaptcha {
+  margin: 1rem 1rem;
+}
+#contact .form .form-content form .btn-wrap {
+  margin-bottom: 1rem;
+}
+#contact .form .form-content form .btn-wrap .send {
+  background-color: #fd475d;
+  padding: 0.85rem 3.5rem;
+  border-radius: 10px;
+  color: white;
+  transition: 0.2s;
+}
+#contact .form .form-content form .btn-wrap .send:hover {
+  transform: translate(0%, -1%);
+  box-shadow: 0px 2px 5px 1px #8D8D8D;
+}
+#contact .form .form-content form .btn-wrap .send:active {
+  transform: translate(0%, 2%);
+  box-shadow: none;
+}
+
+#intro {
+  min-height: 170px;
+}
+#intro .contact-title {
+  margin-bottom: 1rem;
+}
+#intro .contact-title b {
+  font-size: 35px;
+  text-align: center;
+}
+#intro .contact-description p {
+  font-size: 14px;
+  text-align: center;
+  color: #7b7b93;
+}
+
+#maps {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+#maps iframe {
+  width: 100%;
+}

@@ -1,0 +1,49 @@
+#agreement {
+  text-align: justify;
+}
+#agreement .container {
+  width: 60%;
+}
+#agreement .container .agreement-title {
+  text-align: center;
+  padding-top: 1.9rem;
+  padding-bottom: 1.9rem;
+}
+#agreement .container .agreement-title b {
+  font-size: 35px;
+}
+#agreement .container .agreement-content {
+  font-size: 15px;
+}
+#agreement .container .agreement-content .part a {
+  font-size: 15px;
+  color: #fd475d;
+}
+
+@media screen and (max-width: 888px) {
+  #agreement .container {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #agreement .container .row .agreement-title b {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 432px) {
+  #agreement .container {
+    width: 70%;
+  }
+  #agreement .container .row .agreement-title b {
+    font-size: 20px;
+  }
+  #agreement .container .row .agreement-content .part b {
+    font-size: 10px;
+  }
+  #agreement .container .row .agreement-content .part p {
+    font-size: 10px;
+  }
+  #agreement .container .row .agreement-content .part p a {
+    font-size: 10px;
+  }
+}

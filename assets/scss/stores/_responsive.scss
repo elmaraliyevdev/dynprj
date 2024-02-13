@@ -1,0 +1,18 @@
+@media screen and (max-width:473px) {
+    #stores{
+        .container{
+            .row{
+              .stores-title{
+                b{
+                    font-size: 20px;
+                }
+              } 
+              .stores-description{
+                p{
+                    font-size: 12px;
+                }
+              } 
+            }
+        }
+    }
+}

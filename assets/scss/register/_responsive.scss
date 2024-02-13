@@ -1,0 +1,27 @@
+@media only screen and (max-width: 991px) {
+    .right {
+        display: none !important;
+    }
+}
+
+
+@media screen and (max-width:465px) {
+    #register{
+        .register-form{
+            .customer-cat{
+                .natural{
+                   span{
+                    font-size: 8px;
+                   }
+                }
+                .juridical{
+                    span{
+                        font-size: 8px;
+                       }
+                }
+                
+            }
+           
+        }
+    }
+}

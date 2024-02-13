@@ -1,0 +1,56 @@
+@media only screen and (max-width: 900px) {
+    .about-sec {
+        .about-title{
+            min-height: 70px;
+        }
+        .image-about {
+            img {
+                width: 650px;
+                height: 310px;
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width: 651px) {
+    .about-sec {
+        .description {
+            p {
+                font-size: 10px;
+            }
+        }
+
+        .image-about {
+            img {
+                width: 450px;
+                height: 300px;
+            }
+
+        }
+
+        .about-story-area {
+            .about-story-area-text {
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 453px) {
+    .about-sec {
+        .image-about {
+            img {
+                width: 270px;
+                height: 150px;
+            }
+
+        }
+        
+    }
+}
+

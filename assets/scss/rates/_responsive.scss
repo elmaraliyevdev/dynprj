@@ -1,0 +1,60 @@
+@media screen and (max-width:600px) {
+    #services {
+        .container {
+            .row {
+                .services-title {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .services-description {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+
+                    p {
+                        width: 80%;
+                    }
+                }
+
+                .services-cards {
+                    .service-card {
+                        flex-wrap: wrap;
+                        width: 80%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .card-gif {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                        .card-text {
+                            .card-title {
+                                padding-right: 30px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                b {
+                                    font-size: 16px;
+                                }
+                            }
+
+                            .card-description {
+                                p {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

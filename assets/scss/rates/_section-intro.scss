@@ -1,0 +1,47 @@
+#intro {
+    .rates-title {
+        b {
+            font-size: 35px;
+            min-height: 70px;
+        }
+    }
+
+    .rates-description {
+        min-height: 130px;
+
+        p {
+            font-size: 14px;
+            color: #7b7b93;
+        }
+    }
+
+    .location {
+        margin-bottom: 15px;
+        gap: 1.5rem;
+
+        a {
+            padding: 7px 20px;
+            font-size: 17px;
+            border-radius: 5px;
+            transition: .2s ease-in-out;
+
+            &:hover {
+                background-color: #fef5e9;
+                border-radius: 5px;
+                color: #fd475d;
+            }
+
+            &:focus {
+                background-color: #fd475d;
+                border-radius: 5px;
+                color: white;
+            }
+        }
+
+        .active {
+            background-color: #fd475d;
+            border-radius: 5px;
+            color: white;
+        }
+    }
+}

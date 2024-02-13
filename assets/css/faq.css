@@ -1,0 +1,79 @@
+#faq {
+  min-height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#faq .faq-title b {
+  font-size: 35px;
+  text-align: center;
+}
+#faq .faq-description {
+  min-height: 100px;
+}
+#faq .faq-description p {
+  font-size: 14px;
+  text-align: center;
+  color: #7b7b93;
+}
+#faq .faq {
+  border-bottom: 1px solid #cecee2;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+#faq .faq .question-box {
+  margin-bottom: 1rem;
+}
+#faq .faq .question-box .num {
+  font-size: 18px;
+  color: #fd475d;
+  margin-right: 4.4rem;
+}
+#faq .faq .question-box .num::before {
+  content: "#";
+}
+#faq .faq .question-box .question {
+  font-weight: 500;
+  font-size: 16px;
+}
+#faq .faq .question-box .icon {
+  cursor: pointer;
+  float: right;
+}
+#faq .faq .question-box #close {
+  display: none;
+}
+#faq .faq .answer-box .answer {
+  padding-left: 6rem;
+  padding-right: 2rem;
+  font-size: 14px;
+}
+#faq .faq .answer-box .answer a {
+  color: #fd475d;
+}
+#faq .faq .closed {
+  display: none;
+}
+
+@media screen and (max-width: 455px) {
+  #faq .container .row .faq-title b {
+    font-size: 20px;
+  }
+  #faq .container .row .faq-description p {
+    font-size: 13px;
+  }
+  #faq .container .row .faq .question-box b {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 406px) {
+  #faq .container .row .faq-title b {
+    font-size: 20px;
+  }
+  #faq .container .row .faq-description p {
+    font-size: 11px;
+  }
+  #faq .container .row .faq .question-box b {
+    font-size: 8px;
+  }
+}
